@@ -117,6 +117,11 @@ public:
 	//DIAMOND
 	MeshData CreateDiamond(float radius, float height, float depth, uint32 numSubdivisions);
 
+	//WEDGE
+	MeshData CreateWedge(float width, float height, float depth, uint32 numSubdivisions);
+
+	//TORUS
+
 	///<summary>
 	/// Creates a quad aligned with the screen.  This is useful for postprocessing and screen effects.
 	///</summary>
