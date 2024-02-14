@@ -615,7 +615,7 @@ GeometryGenerator::MeshData GeometryGenerator::CreateGrid(float width, float dep
 
 GeometryGenerator::MeshData GeometryGenerator::CreateTriangularPrism(float bottomRad, float height, uint32 stackCount)
 {
-	return CreateCylinder(bottomRad, 2, height, 3, stackCount); //by taking from the sylinder function i can make shapes like the tri prism and change the slice count accordinly hehehe
+	return CreateCylinder(bottomRad, 1, height, 3, stackCount); //by taking from the sylinder function i can make shapes like the tri prism and change the slice count accordinly hehehe
 }
 
 
