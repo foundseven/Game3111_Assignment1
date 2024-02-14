@@ -108,7 +108,14 @@ public:
 	// TRIANGULAR PRISM
 	MeshData CreateTriangularPrism(float bottomRad, float height, uint32 stackCount);
 
-	//
+	// CONE
+	MeshData CreateCone(float bottomRadius, float height, uint32 sliceCount, uint32 stackCount);
+
+	//PYRAMID
+	MeshData CreatePyramid(float bottomRadius, float height, uint32 stackCount);
+
+	//DIAMOND
+	MeshData CreateDiamond(float radius, float height, float depth, uint32 numSubdivisions);
 
 	///<summary>
 	/// Creates a quad aligned with the screen.  This is useful for postprocessing and screen effects.
