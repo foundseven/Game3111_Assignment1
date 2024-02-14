@@ -106,8 +106,9 @@ public:
     MeshData CreateGrid(float width, float depth, uint32 m, uint32 n);
 
 	// TRIANGULAR PRISM
-	//MeshData CreateTriangularPrism(float width, float height, float depth);
+	MeshData CreateTriangularPrism(float bottomRad, float height, uint32 stackCount);
 
+	//
 
 	///<summary>
 	/// Creates a quad aligned with the screen.  This is useful for postprocessing and screen effects.

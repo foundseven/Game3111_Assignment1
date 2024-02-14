@@ -613,30 +613,12 @@ GeometryGenerator::MeshData GeometryGenerator::CreateGrid(float width, float dep
     return meshData;
 }
 
-//GeometryGenerator::MeshData GeometryGenerator::CreateTriangularPrism(float width, float height, float depth)
-//{
-//	MeshData meshData;
-//	//defining the vertices of the triangular prism
-//	
-//	//define the indices
-//	std::vector<uint32> indices =
-//	{
-//		// Bottom triangle
-//		0, 1, 2,
-//		// Top triangle
-//		3, 4, 5,
-//		// Side faces
-//		0, 3, 1,
-//		1, 3, 4,
-//		1, 4, 2,
-//		2, 4, 5,
-//		2, 5, 0,
-//		0, 5, 3
-//	};
-//	//assign them to the mesh data
-//	meshData.Indices32 = std::move(indices);
-//
-//}
+GeometryGenerator::MeshData GeometryGenerator::CreateTriangularPrism(float bottomRad, float height, uint32 stackCount)
+{
+	return CreateCylinder(bottomRad, 2, height, 3, stackCount); //by taking from the sylinder function i can make shapes like the tri prism and change the slice count accordinly hehehe
+}
+
+
 
 GeometryGenerator::MeshData GeometryGenerator::CreateQuad(float x, float y, float w, float h, float depth)
 {
