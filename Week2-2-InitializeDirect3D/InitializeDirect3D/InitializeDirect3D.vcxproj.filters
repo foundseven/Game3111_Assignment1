@@ -45,7 +45,7 @@
     <ClCompile Include="Week4-1-BoxUsingFrameResources.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Week4-5-ShapePractice.cpp">
+    <ClCompile Include="GAME3111_Assignment1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

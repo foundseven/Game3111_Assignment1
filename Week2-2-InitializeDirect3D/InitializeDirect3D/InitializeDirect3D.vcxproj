@@ -138,7 +138,7 @@
     <ClCompile Include="Week4-1-BoxUsingFrameResources.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Week4-5-ShapePractice.cpp" />
+    <ClCompile Include="GAME3111_Assignment1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Common\Camera.h" />
