@@ -121,6 +121,8 @@ public:
 	MeshData CreateWedge(float width, float height, float depth, uint32 numSubdivisions);
 
 	//TORUS
+	MeshData CreateTorus(float outterRad, float innerRad, uint32 sliceCount, uint32 stackCount);
+
 
 	///<summary>
 	/// Creates a quad aligned with the screen.  This is useful for postprocessing and screen effects.
